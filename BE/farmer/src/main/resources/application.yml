@@ -61,6 +61,8 @@ external:
       apigw:
         id: 5gdy282dck
         key: ***REMOVED***
+    fastAPI:
+      url: https://j11d207.p.***REMOVED***.io/data-api
 # 로그 설정
 logging:
   level:
