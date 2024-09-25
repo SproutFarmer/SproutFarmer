@@ -63,7 +63,8 @@ external:
         id: 5gdy282dck
         key: ***REMOVED***
     fastAPI:
-      url: https://j11d207.p.***REMOVED***.io/data-api
+#      url: https://j11d207.p.***REMOVED***.io/data-api
+      url: https://j11d207.p.***REMOVED***.io
 # 로그 설정
 logging:
   level:
