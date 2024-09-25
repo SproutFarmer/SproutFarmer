@@ -63,8 +63,7 @@ external:
         id: 5gdy282dck
         key: ***REMOVED***
     fastAPI:
-#      url: https://j11d207.p.***REMOVED***.io/data-api
-      url: https://j11d207.p.***REMOVED***.io
+      url: http://j11d207.p.***REMOVED***.io/data-api
 # 로그 설정
 logging:
   level:
@@ -72,5 +71,5 @@ logging:
       hibernate:
         SQL: debug
         type: trace
-server:
-  port: 8081
+#server:
+#  port: 8081
