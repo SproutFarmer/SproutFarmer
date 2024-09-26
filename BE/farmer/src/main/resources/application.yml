@@ -56,6 +56,8 @@ spring:
       #host: 127.0.0.1
       host: j11d207.p.***REMOVED***.io
       port: 6379
+    mongodb:
+      uri: mongodb+srv://S11P21D207:7rPaud@***REMOVED***.ngivl.mongodb.net/S11P21D207?authSource=admin&retryWrites=true&w=majority
 external:
   api:
     naver:
