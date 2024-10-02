@@ -58,6 +58,18 @@ spring:
       port: 6379
     mongodb:
       uri: mongodb+srv://S11P21D207:7rPaud@***REMOVED***.ngivl.mongodb.net/S11P21D207?authSource=admin&retryWrites=true&w=majority
+
+  # project 종료 후 제거 필요!
+  cloud:
+    aws:
+      s3:
+        bucket: d207-farmer
+      stack.auto: false
+      region.static: ap-southeast-2
+      credentials:
+        access-key: ***REMOVED***
+        secret-key: ***REMOVED***
+
 external:
   api:
     naver:
