@@ -58,7 +58,8 @@ spring:
       host: j11d207.p.***REMOVED***.io
       port: 6379
     mongodb:
-      uri: mongodb+srv://S11P21D207:7rPaud@***REMOVED***.ngivl.mongodb.net/S11P21D207?authSource=admin&retryWrites=true&w=majority
+#      uri: mongodb+srv://S11P21D207:7rPaud@***REMOVED***.ngivl.mongodb.net/S11P21D207?authSource=admin&retryWrites=true&w=majority
+      uri: mongodb://root:***REMOVED***@j11d207.p.***REMOVED***.io:27017/farm_info?authSource=admin&retryWrites=true&w=majority
 
   # project 종료 후 제거 필요!
   cloud:
