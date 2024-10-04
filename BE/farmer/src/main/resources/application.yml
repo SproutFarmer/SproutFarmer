@@ -34,6 +34,7 @@ spring:
         format_sql: true
         default_batch_fetch_size: 100 # 지연로딩하는 entity을 in 절로 미리 영속성 컨텍스트에 저장
         hbm2ddl:
+#          import_files: ""
           import_files_sql_extractor: org.hibernate.tool.schema.internal.script.MultiLineSqlScriptExtractor # import.sql 멀티라인 되게 지원해줌
     defer-datasource-initialization: false # data.sql이 하이버네이트가 초기화 되기 전에 실행되는 것을 방지
   # 선택사항: Hibernate 통계 정보 활성화
@@ -57,7 +58,8 @@ spring:
       host: j11d207.p.***REMOVED***.io
       port: 6379
     mongodb:
-      uri: mongodb+srv://S11P21D207:7rPaud@***REMOVED***.ngivl.mongodb.net/S11P21D207?authSource=admin&retryWrites=true&w=majority
+#      uri: mongodb+srv://S11P21D207:7rPaud@***REMOVED***.ngivl.mongodb.net/S11P21D207?authSource=admin&retryWrites=true&w=majority
+      uri: mongodb://root:***REMOVED***@j11d207.p.***REMOVED***.io:27017/farm_info?authSource=admin&retryWrites=true&w=majority
 
   # project 종료 후 제거 필요!
   cloud:
