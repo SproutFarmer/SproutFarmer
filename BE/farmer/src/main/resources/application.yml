@@ -83,7 +83,8 @@ external:
         id: 5gdy282dck
         key: ***REMOVED***
     fastAPI:
-     url: http://j11d207.p.***REMOVED***.io:8000/data-api
+      dataUrl: http://j11d207.p.***REMOVED***.io:8000/data-api
+      aiUrl: http://j11d207.p.***REMOVED***.io:8001/data-api
       # url: https://09fd-14-46-141-166.ngrok-free.app/data-api
     weather:
       url: http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst
