@@ -72,6 +72,10 @@ spring:
         access-key: ***REMOVED***
         secret-key: ***REMOVED***
 
+  servlet:
+    multipart:
+      max-file-size: 10MB
+
 external:
   api:
     naver:
@@ -79,7 +83,12 @@ external:
         id: 5gdy282dck
         key: ***REMOVED***
     fastAPI:
-      url: http://j11d207.p.***REMOVED***.io:8000/data-api
+     url: http://j11d207.p.***REMOVED***.io:8000/data-api
+      # url: https://09fd-14-46-141-166.ngrok-free.app/data-api
+    weather:
+      url: http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst
+      key: LlfGjHohnBPdfiGBfmb33Abf4slEeF8jOAyvk5ZS%2B%2B0nS%2FmDoCxDg%2Bu%2FN3jQrX4oEbO76w0QVbB2C7pztIF2tQ%3D%3D
+
 # 로그 설정
 logging:
   level:
