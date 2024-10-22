@@ -20,7 +20,7 @@ pipeline {
             steps {
                 script {
                     echo "Gitlab을 확인합니다."
-                    git branch: 'master', url: 'https://lab.***REMOVED***.com/s11-bigdata-recom-sub1/S11P21D207.git', credentialsId: 'gitlab_deploy'
+                    git branch: 'master', url: 'https://lab.ssafy.com/s11-bigdata-recom-sub1/S11P21D207.git', credentialsId: 'gitlab_deploy'
                 }
                 script {
                     env.GIT_COMMIT = GIT_COMMIT

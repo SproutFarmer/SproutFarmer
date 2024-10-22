@@ -44,12 +44,12 @@ app = FastAPI(lifespan=lifespan)
 
 # 허용할 도메인 목록
 origins = [
-    "http://j11d207.p.***REMOVED***.io:8081",
+    "http://j11d207.p.ssafy.io:8081",
     "http://localhost:8000",
-    "http://j11d207.p.***REMOVED***.io:5173",
-    "https://j11d207.p.***REMOVED***.io:8081",
+    "http://j11d207.p.ssafy.io:5173",
+    "https://j11d207.p.ssafy.io:8081",
     "https://localhost:8000",
-    "https://j11d207.p.***REMOVED***.io:5173",
+    "https://j11d207.p.ssafy.io:5173",
 ]
 
 # CORS Middelware 설정

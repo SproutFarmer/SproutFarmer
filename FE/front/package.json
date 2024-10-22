@@ -74,7 +74,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://j11d207.p.***REMOVED***.io:8081/farmer-api",
+  "proxy": "http://j11d207.p.ssafy.io:8081/farmer-api",
   "devDependencies": {
     "@types/react-slick": "^0.23.13"
   }

@@ -3,10 +3,10 @@ spring:
     servlet:
       path: /farmer-api
   datasource:
-    url: jdbc:mysql://j11d207.p.***REMOVED***.io:3306/farmer?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://j11d207.p.ssafy.io:3306/farmer?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
     #url: jdbc:mysql://localhost:3306/farmer?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
-    username: ***REMOVED***
-    password: ***REMOVED***
+    username: ssafy
+    password: ssafy
     driver-class-name: com.mysql.cj.jdbc.Driver
 #  mail:
 #    host: smtp.gmail.com
@@ -55,22 +55,10 @@ spring:
   data:
     redis:
       #host: 127.0.0.1
-      host: j11d207.p.***REMOVED***.io
+      host: j11d207.p.ssafy.io
       port: 6379
     mongodb:
-#      uri: mongodb+srv://S11P21D207:7rPaud@***REMOVED***.ngivl.mongodb.net/S11P21D207?authSource=admin&retryWrites=true&w=majority
-      uri: mongodb://root:***REMOVED***@j11d207.p.***REMOVED***.io:27017/farm_info?authSource=admin&retryWrites=true&w=majority
-
-  # project 종료 후 제거 필요!
-  cloud:
-    aws:
-      s3:
-        bucket: d207-farmer
-      stack.auto: false
-      region.static: ap-southeast-2
-      credentials:
-        access-key: ***REMOVED***
-        secret-key: ***REMOVED***
+      uri: #
 
   servlet:
     multipart:
@@ -81,14 +69,14 @@ external:
     naver:
       apigw:
         id: 5gdy282dck
-        key: ***REMOVED***
+        key: #
     fastAPI:
-      dataUrl: http://j11d207.p.***REMOVED***.io:8000/data-api
+      dataUrl: http://j11d207.p.ssafy.io:8000/data-api
       aiUrl: https://ddf5-14-46-141-166.ngrok-free.app/data-api
-#      aiUrl: http://j11d207.p.***REMOVED***.io:8001/data-api
+#      aiUrl: http://j11d207.p.ssafy.io:8001/data-api
     weather:
       url: http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst
-      key: LlfGjHohnBPdfiGBfmb33Abf4slEeF8jOAyvk5ZS%2B%2B0nS%2FmDoCxDg%2Bu%2FN3jQrX4oEbO76w0QVbB2C7pztIF2tQ%3D%3D
+      key: #
 
 # 로그 설정
 logging:
